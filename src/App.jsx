@@ -49,7 +49,7 @@ function App() {
             fill="rgb(0, 0, 0)"
             fontSize="505.833px"
             x="-78px"
-            y="950.558px"
+            y="960.558px"
           >
             <tspan fontSize="150.833px" fill="#000000">&#42;</tspan>
           </text>
@@ -59,7 +59,7 @@ function App() {
             fill="rgb(0, 0, 0)"
             fontSize="105.833px"
             x="550px"
-            y="950.558px"
+            y="960.558px"
           >
             <tspan fontSize="150.833px" fill="#000000">&#42;</tspan>
           </text>
