@@ -29,11 +29,11 @@ body {
 }
 @font-face {
   font-family: dolcevita;
-  src: url("./Dolce\ Vita\ Heavy\ Bold.ttf");
+  src: url("./dolce.ttf");
 }
 @font-face {
   font-family: futura-book;
-  src: url("./Futura\ PT\ Book.ttf");
+  src: url("./futura.ttf");
 }
 .submit-arrow{
   background: transparent !important;
