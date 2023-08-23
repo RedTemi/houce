@@ -43,8 +43,7 @@ body {
 .submit-arrow{
   position: absolute;
   right: 30px;
-  top: 45%;
-  font-size: 40px;
+  top: 60%;
   transform: translateY(-50%);
 }
 
@@ -133,24 +132,4 @@ select:-webkit-autofill:focus {
   background: none;
   transition: none;
   appearance: none;
-}
-.horizontal-line {
-  position: absolute;
-
-  top: 50%;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background-color: black;
-}
-input:-internal-autofill-selected{
-  background-color: transparent !important;
-}
-.vertical-line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: black;
 }
