@@ -1,11 +1,11 @@
 import "./App.css";
-import HouceSVG from "./HouceSVG";
+import {HouceSVG,Ccwu }from "./HouceSVGs";
 function App() {
   return (
     <>
       <main>
         <div className="container">
-        <HouceSVG></HouceSVG>
+          <HouceSVG></HouceSVG>
           <form action="">
             <div className="input-container">
               <div className="input-field">
@@ -54,9 +54,7 @@ function App() {
               </div>
             </div>
           </form>
-          <div className="text">
-            <div className="COME_CRUISE_WITH_US">COME CRUISE WITH US</div>
-          </div>
+          <Ccwu></Ccwu>
         </div>
       </main>
     </>

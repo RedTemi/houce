@@ -1,4 +1,4 @@
-#root{
+#root {
   height: 100vh;
 }
 .container {
@@ -7,17 +7,17 @@
   align-items: center;
   width: 320px;
   /* min-width: 320px; */
-  margin:auto 0;
+  margin: auto 0;
   box-sizing: content-box;
 }
-svg{
+svg {
   overflow: visible;
 }
-#ctasvg{
+#ctasvg {
   /* overflow: visible; */
   /* margin: 2em auto 0; */
   max-width: 100%;
-  height: auto !important;  
+  height: auto !important;
   /* transform: scale(0.2); */
 }
 body {
@@ -25,12 +25,18 @@ body {
   margin: 0;
   padding: 0;
 }
+#ccwu{
+  margin-top: 0.5em;
+}
+#svgGroup {
+  stroke: #000;
+  stroke-width: 0.25mm;
+  fill: #000;
+}
 
-
-
-.submit-arrow{
+.submit-arrow {
   background: transparent !important;
-  border: none!important;
+  border: none !important;
   outline: none !important;
 }
 .t-margin {
@@ -47,7 +53,7 @@ body {
   /* padding: 0.25em; */
   box-sizing: border-box;
 }
-.submit-arrow{
+.submit-arrow {
   position: absolute;
   right: 5%;
   bottom: 0.01em;
@@ -63,16 +69,16 @@ body {
   width: 100%;
   box-sizing: border-box;
   vertical-align: middle;
-  margin: 0.15em ;
+  margin: 0.15em;
   /* margin: 0 auto; */
 }
-.email-field{
+.email-field {
   color: #000;
   text-align: center;
   font-size: 1em;
   width: 100%;
   height: 100%;
-  border:none;
+  border: none;
   font-family: futura-book;
   margin: auto auto;
   display: block;
@@ -85,71 +91,69 @@ body {
 }
 .email-field:focus {
   /* border: black dotted; */
-  outline:none !important;
-  box-shadow: none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
-.COME_CRUISE_WITH_US{
+.COME_CRUISE_WITH_US {
   font-size: 2em;
   font-family: "dolcevita";
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: center;
-  margin-top: .2em;
+  margin-top: 0.2em;
   width: 100%;
 }
 main {
- margin: auto 0;
- height: 100vh !important;
- display: flex;
- flex-direction: row !important;
- align-items: center;
- justify-content: center;
+  margin: auto 0;
+  height: 100vh !important;
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
 }
 
-form{
-  width:100%;
+form {
+  width: 100%;
   margin-top: 0.15em !important;
 }
 /* scale down at 320px */
 
-
 @media only screen and (max-width: 500px) {
-
-  .container{
+  .container {
     width: 90vw;
   }
-.COME_CRUISE_WITH_US{
-  font-size: 2em;
-}
+  .COME_CRUISE_WITH_US {
+    font-size: 2em;
+  }
 }
 
-@media  screen and (max-width:430px) {
-  .COME_CRUISE_WITH_US{
+@media screen and (max-width: 430px) {
+  .COME_CRUISE_WITH_US {
     font-size: 2.27em;
   }
 }
 @media only screen and (max-width: 392px) {
-  .COME_CRUISE_WITH_US{
+  .COME_CRUISE_WITH_US {
     font-size: 2em;
   }
 }
 @media only screen and (max-width: 340px) {
-  .COME_CRUISE_WITH_US{
+  .COME_CRUISE_WITH_US {
     font-size: 1.8em;
   }
 }
 @media only screen and (max-width: 280px) {
-  .COME_CRUISE_WITH_US{
+  .COME_CRUISE_WITH_US {
     font-size: 1.5em;
   }
 }
 @media only screen and (max-width: 250px) {
-  .COME_CRUISE_WITH_US{
+  .COME_CRUISE_WITH_US {
     font-size: 1.2em;
   }
 }
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-internal-autofill-selected,
 textarea:-webkit-autofill,
@@ -160,7 +164,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: none !important;
   /* -webkit-text-fill-color: transparent !important; */
-  -webkit-box-shadow:none !important;
+  -webkit-box-shadow: none !important;
   background-color: transparent !important;
   background: none;
   transition: none;
